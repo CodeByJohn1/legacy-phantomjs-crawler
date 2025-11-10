@@ -1,0 +1,38 @@
+{
+  "name": "legacy-phantomjs-crawler-scraper",
+  "version": "1.0.0",
+  "description": "Legacy PhantomJS-based crawler that recursively scrapes sites using page functions.",
+  "main": "src/crawler.js",
+  "scripts": {
+    "start": "node src/crawler.js",
+    "test": "mocha \"tests/**/*.js\""
+  },
+  "dependencies": {
+    "phantom": "^6.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "mocha": "^10.0.0"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "license": "MIT"
+}
+
+legacy-phantomjs-crawler-scraper/.gitignore
+textnode_modules/
+npm-debug.log*
+yarn-error.log*
+.DS_Store
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# IDE
+.idea/
+.vscode/
+
+# Output data
